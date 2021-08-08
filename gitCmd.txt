@@ -1,0 +1,62 @@
+pwm-> returns path to the local folder on my computer's disk
+
+cd -> used to specify file path eg. cd name-sub-class
+ eg. "cd/users/username/projects/
+cd~/projects/ ...  can also be used
+
+ls -la -> lists contents of a file, l formants top structured, a lists hidden files
+
+working with files
+
+rm path/to/file.ext allows us to remove files
+use rm -r path/...
+
+mv path/to/file.ext different/path/file.ext moves a file from to to diff
+
+mv old-filename.ext new-filename.ext renames file name
+
+mkdir new-folder creates a new folder
+
+geberating output
+
+cat file.ext outputs the whole file in one go
+// head displays first 10 lenes and tail display last 10
+
+less file.ext displays one page then waits for instruction // space scrolls forward
+b scrolls backwards and q exits
+
+adding file to github
+
+1.right click on project file then select git bash option
+
+2.git init to initialise the project in git
+
+3.git add . with the dot to add all files
+
+4.git commit -m "my first project"
+
+5.git status , this tells you if the working tree is free
+
+6.git remote add origin (..) .. => copy the link from github of your repository
+
+7.git push origin master , push to github
+
+8.git push -f origin master , really dont know what does it do but yaeh i think it's necesssry  
+
+
+Amend, Reword, Delete, Reorder, Squash and splits commits
+
+git log --oneline -> shows commits made to a project
+
+git status
+
+git add about_me.css profile_pic.jpg -> i think it has something to do with the profile pic in github
+
+use status
+
+git commit --amend  --ne-edity
+
+git log --oneline
+
+reword
+git rebase -i HEAD~2
